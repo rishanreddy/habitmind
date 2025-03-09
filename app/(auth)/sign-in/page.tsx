@@ -115,7 +115,7 @@ export default function SignIn() {
 
         {/* Sign Up Redirect */}
         <p className="text-sm text-center mt-4">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link href="/sign-up" className="text-primary hover:underline">
             Sign Up
           </Link>
