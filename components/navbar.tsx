@@ -150,9 +150,7 @@ const Navbar: React.FC = () => {
                 <button
                   onClick={async () => {
                     try {
-                      await signOut({
-                        redirectTo: "/sign-in",
-                      });
+                      await signOut();
                     } catch (error) {
                       console.error("Error signing out:", error);
                     }
