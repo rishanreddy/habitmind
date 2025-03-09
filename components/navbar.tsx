@@ -6,6 +6,7 @@ import { ArrowRight } from "lucide-react";
 import { useSession, signOut } from "@/lib/auth-client";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
+// @ts-ignore
 import { scroller } from "react-scroll";
 
 const Navbar: React.FC = () => {
